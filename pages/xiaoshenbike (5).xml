@@ -1,0 +1,208 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="zh-Hant-TW">
+  <siteinfo>
+    <sitename>硝神 Wiki</sitename>
+    <dbname>zhtwxiaoshenbike</dbname>
+    <base>https://xiaoshenbike.fandom.com/zh-tw/wiki/%E4%B8%89%E5%85%AC_Wiki:Start</base>
+    <generator>MediaWiki 1.33.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">媒體</namespace>
+      <namespace key="-1" case="first-letter">特殊</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">討論</namespace>
+      <namespace key="2" case="first-letter">使用者</namespace>
+      <namespace key="3" case="first-letter">使用者討論</namespace>
+      <namespace key="4" case="first-letter">硝神 Wiki</namespace>
+      <namespace key="5" case="first-letter">硝神 Wiki討論</namespace>
+      <namespace key="6" case="first-letter">檔案</namespace>
+      <namespace key="7" case="first-letter">檔案討論</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki討論</namespace>
+      <namespace key="10" case="first-letter">模板</namespace>
+      <namespace key="11" case="first-letter">模板討論</namespace>
+      <namespace key="12" case="first-letter">使用說明</namespace>
+      <namespace key="13" case="first-letter">使用說明討論</namespace>
+      <namespace key="14" case="first-letter">分類</namespace>
+      <namespace key="15" case="first-letter">分類討論</namespace>
+      <namespace key="110" case="first-letter">Forum</namespace>
+      <namespace key="111" case="first-letter">Forum talk</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">User blog</namespace>
+      <namespace key="501" case="first-letter">User blog comment</namespace>
+      <namespace key="502" case="first-letter">Blog</namespace>
+      <namespace key="503" case="first-letter">Blog talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">模組</namespace>
+      <namespace key="829" case="first-letter">模組討論</namespace>
+      <namespace key="1200" case="first-letter">Message Wall</namespace>
+      <namespace key="1201" case="first-letter">Thread</namespace>
+      <namespace key="1202" case="first-letter">Message Wall Greeting</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>模板:信息</title>
+    <ns>10</ns>
+    <id>74</id>
+    <revision>
+      <id>145</id>
+      <timestamp>2020-10-07T10:32:48Z</timestamp>
+      <contributor>
+        <username>San Gong</username>
+        <id>45503518</id>
+      </contributor>
+      <comment>已建立頁面，內容為 "{| class="infobox" style="font-size:89%;float:right;background-color:snow; width:300px; color:#000000;margin:5px;padding:5px; box-shadow:0 1px 2px 0 rgba(0,0,0,.14),…"</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1294">{| class="infobox" style="font-size:89%;float:right;background-color:snow; width:300px; color:#000000;margin:5px;padding:5px; box-shadow:0 1px 2px 0 rgba(0,0,0,.14),0 1px 5px 0 rgba(0,0,0,.12),0 2px 1px -2px rgba(0,0,0,.2); "
+|-
+! colspan="2" style="background-color:#510DAB; color:#FFFFFF; font-size:120%; padding:1em;" | {{{titlename|{{{name}}}}}}
+|-
+| colspan="2" style="text-align:center;" | [[文件:{{{photo|NOBODY.JPG}}}|120px]]&lt;br&gt;
+&lt;i&gt;{{{photocap|}}}&lt;/i&gt;
+|-
+| style="width:30%;" | &lt;p&gt;&lt;b&gt;姓名&lt;/b&gt;&lt;/p&gt;
+| style="width:70%;" | &lt;p&gt;{{{name|暂无姓名}}}&lt;/p&gt; {{#if:{{{id|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;常用ID&lt;/b&gt;&lt;/p&gt;
+{{!}}
+&lt;p&gt;{{{id}}}&lt;/p&gt;}} {{#if:{{{class|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;职业&lt;/b&gt;&lt;/p&gt;
+{{!}}
+&lt;p&gt;{{{class}}}&lt;/p&gt;}} {{#if:{{{ability|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;能力&lt;/b&gt;&lt;/p&gt;
+{{!}}
+&lt;p&gt;{{{ability}}}&lt;/p&gt;}} {{#if:{{{hardness|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;硬度（伪）&lt;/b&gt;&lt;/p&gt;
+{{!}}&lt;p&gt;{{硬度{{{hardness}}}}}&lt;/p&gt;}} {{#if:{{{IQ|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;智商（伪）&lt;/b&gt;&lt;/p&gt;
+{{!}}&lt;p&gt;{{{IQ}}}&lt;/p&gt;}} {{#if:{{{online|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;活跃度&lt;/b&gt;&lt;/p&gt;
+{{!}}&lt;p&gt;{{活跃度{{{online}}}}}&lt;/p&gt;}} {{#if:{{{affinity|}}}|&lt;nowiki&gt;&lt;/nowiki&gt;
+{{!}}-
+{{!}}&lt;p&gt;&lt;b&gt;所属&lt;/b&gt;&lt;/p&gt;
+{{!}}
+&lt;p&gt;{{{affinity}}}&lt;/p&gt;}}
+|}</text>
+      <sha1>nf7cfuzr73d4migif47p8l7ybt5bb65</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>模板:信息框</title>
+    <ns>10</ns>
+    <id>33</id>
+    <revision>
+      <id>192</id>
+      <parentid>135</parentid>
+      <timestamp>2020-10-31T13:28:33Z</timestamp>
+      <contributor>
+        <username>San Gong</username>
+        <id>45503518</id>
+      </contributor>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="1033">&lt;table style="{{{style|}}}" class="plainlinks esu-ambox" style="font-size: 95%; width: 80%; margin: 0 auto; margin-top: -1px; border: 1px #AAA solid; border-left: 10px solid #228b22; border-collapse: collapse; background-color: #EEE; color: #000; {{#switch:{{{border|}}}
+  | red         = border-left: 10px solid #b22222;
+  | orange      = border-left: 10px solid #f28500;
+  | yellow      = border-left: 10px solid #f4c430;
+  | purple      = border-left: 10px solid #9932cc;
+  | blue        = border-left: 10px solid #1e90ff;
+  | green       = border-left: 10px solid #228b22;
+  | gray        = border-left: 10px solid #bba;
+  | #default    = border-left: 10px solid #228b22;
+}}"&gt;
+&lt;tr&gt;
+&lt;td style="width: 60px; padding: 2px 0px 2px 0.5em; text-align: center;"&gt;{{{image}}}&lt;/td&gt;
+&lt;td style=": 0.25em 0.5em;"&gt;'''{{{type|意味不明}}}'''
+&lt;div style="font-size: smaller; margin-top:0.5em; margin-left:0.8em;"&gt;
+{{{info|这个悾的AmBox模板需要内容！}}}
+&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;noinclude&gt;[[Category:文档管理模板]]&lt;/noinclude&gt;</text>
+      <sha1>da5007o34doqkrdfa2dtik3ahrzospo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>模板:Featured</title>
+    <ns>10</ns>
+    <id>36</id>
+    <revision>
+      <id>204</id>
+      <parentid>193</parentid>
+      <timestamp>2020-11-01T03:31:53Z</timestamp>
+      <contributor>
+        <username>San Gong</username>
+        <id>45503518</id>
+      </contributor>
+      <minor/>
+      <comment>San Gong 已移動頁面 [[模板:精品]] 至 [[模板:Featured]]，不留重新導向</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="165">{{信息框
+|border=green
+|image=[[File:Featured.png]]
+|type=精品
+|info=本条目受[[浅轻|浅大师]]及[[陈子龙|哈尔滨小作家]]协会审查通过。
+}}</text>
+      <sha1>cgetun3w8eq1htcc0ucjkh3wjsasqk4</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>模板:Speedup</title>
+    <ns>10</ns>
+    <id>34</id>
+    <revision>
+      <id>206</id>
+      <parentid>205</parentid>
+      <timestamp>2020-11-01T03:34:13Z</timestamp>
+      <contributor>
+        <username>San Gong</username>
+        <id>45503518</id>
+      </contributor>
+      <minor/>
+      <comment>San Gong 已移動頁面 [[模板:迫害加速]] 至 [[模板:Speedup]]，不留重新導向</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="249">{{信息框
+|border=red
+|image=[[file:Speedup.jpg]]
+|type=迫害加速
+|info=鉴于该条目涉及人士硬度无穷大，娱乐性极强，建议任何人对其实施包括但不限于以下娱乐活动：
+{{{1}}}
+
+更多乐子等您发掘……
+}}</text>
+      <sha1>f52mhb1bl4cougu4pbg1pq3ordxnpzz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>模板:Mottomo</title>
+    <ns>10</ns>
+    <id>100</id>
+    <revision>
+      <id>207</id>
+      <timestamp>2020-11-01T03:40:23Z</timestamp>
+      <contributor>
+        <username>San Gong</username>
+        <id>45503518</id>
+      </contributor>
+      <comment>已建立頁面，內容為 "{{信息框 |border=blue |image=[[File:Mottomo.png]] |type=硝神百科之最——{{{1}}} |info={{{2}}} }}"</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="107">{{信息框
+|border=blue
+|image=[[File:Mottomo.png]]
+|type=硝神百科之最——{{{1}}}
+|info={{{2}}}
+}}</text>
+      <sha1>j0mohpzje4fyl7q51tijn05mb5jq59r</sha1>
+    </revision>
+  </page>
+</mediawiki>
